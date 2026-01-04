@@ -1,0 +1,26 @@
+/* รูปโปรไฟล์เป็นวงกลม */
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* ทำให้รูปเป็นวงกลม */
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* คำตอบ Challenge: ทำให้รูปกับ Text ห่างกัน */
+.profile-info {
+    padding-left: 50px; /* ใช้ Padding เพื่อเพิ่มระยะห่างระหว่างเซลล์ของตาราง */
+    vertical-align: middle;
+}
+
+/* จัดสไตล์ตาราง Skill */
+.skill-table td {
+    padding: 15px;
+    border: 1px solid #dee2e6;
+}
+
+.profile-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
